@@ -1,0 +1,18 @@
+//Program for lolan qualification
+//prprocessor directive-scanf(),printf()
+#include <stdio.h>
+int main() {
+    int age;
+    int income;
+    printf("Enter your age:");
+    scanf("%d",&age);
+    printf("Enter your income:");
+    scanf("%d",&income);
+    if(age>=21&&income>=21000){
+        printf("Congratulations you qualify for the loan");
+    }
+    else{
+        printf("Unffortunately we are unable to offer you loan at this time");
+    }
+    return 0;
+}
